@@ -1,0 +1,29 @@
+name: juan_emociones
+description: Laboratorio de Inteligencia Artificial. Detección de emociones.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Cambiamos a la 0.10.1 para evitar el error de compilación que te salió
+  tflite_flutter: ^0.12.0
+  camera: ^0.10.5
+  image_picker: ^1.0.7
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/modelo_emociones.tflite
+    - assets/labels.txt

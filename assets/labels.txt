@@ -1,0 +1,4 @@
+Alegre
+Triste
+Enojado
+Sorprendido
